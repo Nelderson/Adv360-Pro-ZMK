@@ -72,11 +72,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1          &kp N2          &kp N3       &kp N4            &kp N5  &tog 1                                                         &mo 3      &kp N6  &kp N7             &kp N8       &kp N9           &kp N0              &kp MINUS
-&kp TAB    &kp Q           &kp W           &kp E        &kp R             &kp T   &kp K_PASTE                                                    &none      &kp Y   &kp U              &kp I        &kp O            &kp P               &kp BSLH
-&kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G   &kp K_COPY   &kp LCTRL     &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMI  &kp SQT
-&kp LSHFT  &kp Z           &kp X           &kp C        &kp V             &kp B                              &kp HOME      &kp PG_UP                        &kp N   &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp RSHFT
-&mo 2      &kp GRAVE       &none           &kp LEFT     &kp RIGHT                 &kp BSPC     &lt 4 DELETE  &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP             &kp DOWN     &kp LBKT         &kp RBKT            &mo 2
+&kp EQUAL  &kp N1          &kp N2          &kp N3       &kp N4            &kp N5  &tog 1                                                        &mo 3      &kp N6  &kp N7             &kp N8       &kp N9           &kp N0              &kp MINUS
+&kp TAB    &kp Q           &kp W           &kp E        &kp R             &kp T   &copy_mac                                                     &none      &kp Y   &kp U              &kp I        &kp O            &kp P               &kp BSLH
+&kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G   &paste_mac  &kp LCTRL     &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMI  &kp SQT
+&kp LSHFT  &kp Z           &kp X           &kp C        &kp V             &kp B                             &kp HOME      &kp PG_UP                        &kp N   &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp RSHFT
+&mo 2      &kp GRAVE       &none           &kp LEFT     &kp RIGHT                 &kp BSPC    &lt 4 DELETE  &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP             &kp DOWN     &kp LBKT         &kp RBKT            &mo 2
             >;
         };
 
@@ -105,7 +105,7 @@
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none         &none         &bootloader                                            &bootloader             &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &macro_v    &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &macro_v      &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
             >;
         };
